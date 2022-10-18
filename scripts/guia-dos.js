@@ -1,6 +1,6 @@
 //Ejercicio 1
-numUno = document.querySelector(".numA")
-resultMaydiez = document.querySelector(".mayor")
+var numUno = document.querySelector(".numA")
+var resultMaydiez = document.querySelector(".mayor")
 
 
 numUno.addEventListener('keyup', mayorQueDiez)
@@ -17,9 +17,9 @@ function mayorQueDiez() {
 }
 
 //Ejercicio 2
-numB = document.querySelector(".numB")
-numC = document.querySelector(".numC")
-menor = document.querySelector(".menor")
+var numB = document.querySelector(".numB")
+var numC = document.querySelector(".numC")
+var menor = document.querySelector(".menor")
 
 function menorOmayor() {
     if (numB.value < numC.value) {
@@ -35,9 +35,9 @@ if (menorOmayor.key === "Enter") {
 }
 
 //Ejercicio 3
-numD = document.querySelector(".numd")
-numE = document.querySelector(".nume")
-resultIgual = document.querySelector(".igual")
+var numD = document.querySelector(".numd")
+var numE = document.querySelector(".nume")
+var resultIgual = document.querySelector(".igual")
 
 numE.addEventListener('click', igual)
 function igual() {
@@ -52,8 +52,8 @@ function igual() {
 
 //Ejercicio 4
 
-numF = document.querySelector(".numf")
-resultPositivo = document.querySelector(".positivo")
+var numF = document.querySelector(".numf")
+var resultPositivo = document.querySelector(".positivo")
 
 numF.addEventListener('click', positivo)
 function positivo() {
@@ -68,8 +68,8 @@ function positivo() {
 
 //Ejercicio 5
 
-numG = document.querySelector(".numg")
-resultPar = document.querySelector(".par")
+var numG = document.querySelector(".numg")
+var resultPar = document.querySelector(".par")
 
 numG.addEventListener('click', par)
 function par() {
@@ -88,8 +88,8 @@ function par() {
 
 
 //Ejercicio 6
-precio = document.querySelector(".precio")
-descuento = document.querySelector(".descuento")
+var precio = document.querySelector(".precio")
+var descuento = document.querySelector(".descuento")
 
 precio.addEventListener('click', aplicarDescuento)
 function aplicarDescuento() {
@@ -106,3 +106,33 @@ function aplicarDescuento() {
 
 
 //Ejercicio 7
+
+a = document.querySelector(".a")
+b = document.querySelector(".b")
+c = document.querySelector(".c")
+d = document.querySelector(".d")
+elmayor = document.querySelector(".elmayor")
+
+d.addEventListener('click', detectarElMayor)
+
+function detectarElMayor(){
+    if(a.value > b.value){
+        if(a.value > c.value){
+            if(a.value > d.value){
+                elmayor.innerHTML = a.value
+            }
+        }
+    }else if(b.value > c.value){
+        if(b.value > d.value){
+            elmayor.innerHTML = b.value
+        }
+    }else if(c.value > a.value){
+        if(c.value > d.value){
+            elmayor.innerHTML = c.value
+        }else if(d.value > b.value){
+            if(d.value > a.value){
+                elmayor.innerHTML = d.value
+            }
+        }
+    }    
+}

@@ -41,6 +41,7 @@ article {
 input {
     width: 150px;
     height: 25px;
+    margin-top: 5px;
 }
 
 .container {
