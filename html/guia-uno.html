@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/guia-uno.css">
+    <title>Guia de ejercicios 1</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="/imagenes/cssLogo.png" alt="Logo" id="logo"></a>
+        <nav>
+            <a href="https://maxiprograma.com/" target="_blank">MaxiPrograma</a>
+            <a href="/html/informacion.html">Información</a>
+        </nav>
+    </header>
+
+    <h1> Guia de ejercicios 1</h1>
+    <!--Inicio ejercicio uno-->
+
+    <div class="container">
+        <section>
+            <h3>Ejercicio uno: suma dos números</h3>
+            <article class="caja">
+                <form action="">
+                    <input id="numeroUno" type="number" placeholder="0">
+                </form>
+                <p id="signo">+</p>
+                <form action="">
+                    <input id="numeroDos" type="number" placeholder="0">
+                </form>
+                <button class="botonSumar" type="submit">Sumar</button>
+                <p>=</p>
+                <p class="parrafo"></p>
+            </article>
+        </section>
+        <!--Fin ejercicio uno-->
+
+        <!--Inicio ejercicio dos-->
+        <section>
+            <h3>Ejercicio dos: Calcular el cubo de un número</h3>
+            <article class="caja">
+                <form action="">
+                    <input id="numCubo" type="number" placeholder="6">
+                </form>
+                <button class="botonCubo">Calcular el cubo</button>
+                <p>=</p>
+                <p class="resultCubo"></p>
+            </article>
+        </section>
+        <!--Fin ejercicio dos-->
+
+        <!-- Inicio ejercicio Tres-->
+        <section>
+            <h3>Ejercicio tres: Calcular edad</h3>
+
+            <article class="caja">
+                <form action="">
+                    <label for="">Año de nacimiento</label>
+                    <input type="number" min="0" id="ano">
+                </form>
+                <button class="botonEdad">Calcular su edad</button>
+
+                <p class="resultEdad">Su edad es: </p>
+
+            </article>
+        </section>
+        <!--Fin ejrcicio tres-->
+
+        <!--Inicio ejercicio cuatro-->
+        <section>
+            <h3>Ejercicio cuatro: Calcular tiempo de viaje</h3>
+            <article class="caja">
+                <form action="">
+                    <label>Distancia de viaje</label>
+                    <input type="number" min="0" id="distancia">
+                </form>
+                <form action="">
+                    <label>Velocidad promedio</label>
+                    <input type="number" min="0" id="velocidad">
+                </form>
+                <button class="botonViaje">Calcular tiempo de viaje</button>
+            </article>
+
+            <p class="resultTiempo"></p>
+        </section>
+        <!--Fin ejercicio cuatro-->
+    </div>
+
+    <!--Inicio ejercicio cinco-->
+    <div class="container">
+        <section>
+            <h3>Ejercicio cinco: calcular sueldo</h3>
+            <article class="caja">
+                <form action="">
+                    <label for="">Total Facturado: </label>
+                    <input type="number" min="0" id="facturado">
+                </form>
+                <form action="">
+                    <label for="">Porcentaje: </label>
+                    <input type="number" min="0" id="porcentaje">
+                </form>
+                <button id="botonSueldo">Sueldo Total</button>
+            </article>
+            <p id="resultSueldo">Su sueldo con comision es: </p>
+        </section>
+        <!--Fin ejercicio cinco-->
+
+
+        <!--Inicio de ejercicio 6-->
+
+
+
+        <div class="cajaNota">
+            <h3>Ejercicio 6: Calcular promedio</h3>
+            <div class="cosas">
+                <form action="">
+                    <label for="">Legajo</label>
+                    <input type="text" placeholder="legajo" title="Hola">
+                </form>
+
+                <form action="">
+                    <label for="">Nota 1</label>
+                    <input type="num" id="notaUno">
+                </form>
+
+                <form action="">
+                    <label for="">Nota 2</label>
+                    <input type="number" id="notaDos">
+                </form>
+
+                <form action="">
+                    <label for="">Nota 3</label>
+                    <input type="number" id="notaTres">
+                </form>
+                <button class="botonNotaFinal">Calcular nota final</button>
+                <p class="resulFinal">Su nota final es: </p>
+            </div>
+        </div>
+
+        <!--Fin de Ejercicio 6-->
+
+        <!--Inicio Ejercicio 7-->
+        <section>
+            <h3>Ejercicio 7: Metros descubiertos</h3>
+            <article class="caja">
+                <form action="">
+                    <label for="">m<sup>2</sup> totales</label>
+                    <input type="number" id="m2t">
+                </form>
+
+                <form action="">
+                    <label for="">m<sup>2</sup> cubiertos</label>
+                    <input type="number" id="m2c">
+                </form>
+                <button id="btnMts">Calcular</button>
+            </article>
+            <p class="resultMts">% de m<sup>2</sup> cubiertos, % de m<sup>2</sup> descubiertos</p>
+
+        </section>
+        <!--Fin Ejercicio 7-->
+    </div>
+
+
+    <div class="container">
+        <!--Inicio Ejercicio 8-->
+        <section>
+            <h3>Ejercicio 8: Calcular descuento</h3>
+            <article class="caja">
+                <form action="">
+                    <label for="">Precio</label>
+                    <input type="number" name="" id="precio">
+                </form>
+
+                <form action="">
+                    <label for="">Porcentaje</label>
+                    <input type="number" value="15" disabled="true" id="porcentaje">
+                </form>
+                <button id="btnCobrar">Cobrar</button>
+                <p id="resulCobrar">Cobrar: </p>
+            </article>
+        </section>
+        <!--Fin Ejercicio 8-->
+
+        <!--Inicio Ejercicio 9-->
+        <section>
+            <h3>Ejercicio 9: Calcular porcentaje de Hombre y mujeres</h3>
+            <article class="caja">
+                <form action="">
+                    <label for="">Hombres</label>
+                    <input type="number" name="" id="hombres">
+                </form>
+                <form action="">
+                    <label for="">Mujeres</label>
+                    <input type="number" id="mujeres">
+                </form>
+                <button id="btnmh">Calcular</button>
+                
+            </article>
+            <p id="resultmh">% hombres, % mujeres</p>
+        </section>
+        <!--Fin Ejercicio 9-->
+
+        <!--Inicio Ejercicio 10-->
+        <section>
+            <h3>Ejercicio 10: Suma, resta, division y multiplicacion</h3>
+            <article class="caja">
+                <form action="">
+                    <input type="number" placeholder="ingrese un numero" title="5" id="numA">
+                </form>
+                <form action="">
+                <input type="number" placeholder="ingrese un numero" title="10" id="numB">
+            </form>
+            <button id="btnCalc">Calcular</button>
+            </article>
+            <p id="resultGenerales">Suma: Resta: Division: Multiplicacion:</p>
+        </section>
+        <!--Fin Ejercicio 10-->
+
+    </div>
+
+
+
+
+    <script src="/scripts/guia-Uno.js" defer> </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav>a {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(36, 103, 230);
+    border-radius: 10px;
+    height: 20px;
+    background-color: aquamarine;
+}
+
+section {
+    width: 400px;
+    height: 150px;
+    background-color: beige;
+    margin: 20px;
+}
+
+article {
+    padding: 2px;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+}
+
+.container {
+    display: flex;
+}

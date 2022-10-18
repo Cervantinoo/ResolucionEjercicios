@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    width: auto;
+}
+header {
+    display: flex; 
+    position: sticky;
+  top: 0;     
+}
+
+nav{
+width: 95%;
+display: flex;
+justify-content: right;
+    
+}
+ nav > a{   
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(36, 103, 230);
+    border-radius: 10px;
+    height: 20px;
+    background-color: aquamarine;    
+}
+
+select {
+    margin-top: 10px;
+    height: 20px;
+}
+
+div {    
+    display: flex;
+    justify-content: center;
+}
+h1, h2 {
+    text-align: center;
+}
+
+ul {  
+    text-align: justify;
+    width: 100px;
+}
+

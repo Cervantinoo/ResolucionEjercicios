@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    display: flex; 
+    position: sticky;
+    top: 0;
+ }
+
+nav{
+    width: 95%;
+    display: flex;
+    justify-content: right;    
+    }
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100px;
+    height: 20px;    
+    background-color: blanchedalmond;   
+}
+
+p {
+    margin: 5px;
+}
+
+nav > a{   
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(36, 103, 230);
+    border-radius: 10px;
+    height: 20px;
+    background-color: aquamarine;    
+}
+
+
+
+section { 
+    width: 400px;
+    height: 150px;
+    background-color: beige;
+    margin: 20px;
+}
+form {
+    margin-left: 10px;
+}
+button{    
+    margin-left: 5px;
+    margin-right: 8px;
+    width: 150px;
+    display: block;
+    
+}
+
+.container, .caja{
+    display: flex;
+   
+}
+
+.cajaNota {
+    display: grid;
+    width: 840px;
+    height: 150px;
+    background-color: beige;
+    margin: 20px; 
+    align-items: center;
+}
+
+.cosas {
+    display: flex;
+}
+
